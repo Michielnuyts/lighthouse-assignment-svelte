@@ -1,18 +1,23 @@
 <script lang="ts">
 	import { theme } from '$designSystem/theme';
+	import { reservationsStore } from '$lib/modules/reservations/store.svelte';
 	import CardHeader from './CardHeader.svelte';
 	import CountryRow from './CountryRow.svelte';
+
+	let reservations = reservationsStore.getReservations();
 </script>
 
 <div class="card-container" style="border-color: {theme.colors.borders.primary};">
 	<CardHeader title="Guest Country" />
 
 	<div class="scroll-container">
-		<CountryRow name="United Kingdom" reservations={100} percentageOfTotal={57} delta={39} />
-		<CountryRow name="Germany" reservations={100} percentageOfTotal={49} delta={17} />
-		<CountryRow name="France" reservations={100} percentageOfTotal={30} delta={-2} />
-		<CountryRow name="Spain" reservations={100} percentageOfTotal={16} delta={4} />
-		<CountryRow name="Italy" reservations={100} percentageOfTotal={6} delta={-9} />
+		{#each reservations as reservation (reservation.id)}
+			<CountryRow
+				name={reservation.countryName}
+				percentageOfTotal={reservation.percentage}
+				delta={reservation.delta}
+			/>
+		{/each}
 	</div>
 </div>
 

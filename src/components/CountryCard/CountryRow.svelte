@@ -9,10 +9,6 @@
 		 */
 		name: string;
 		/**
-		 * The total number of reservations for the country.
-		 */
-		reservations: number;
-		/**
 		 * The percentage of total reservations for the country
 		 * compared to the total of the country with the highest amount.
 		 */
