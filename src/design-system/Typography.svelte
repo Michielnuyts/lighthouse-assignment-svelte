@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
+	import { theme } from './theme';
 
 	const sizeMap = {
 		xs: '10px',
@@ -36,7 +37,12 @@
 		color?: string;
 	}
 
-	const { children, size, weight, color = '#4E6477' }: TypographyProps = $props();
+	const {
+		children,
+		size,
+		weight,
+		color = theme.colors.primary.mediumBlue
+	}: TypographyProps = $props();
 </script>
 
 <div style="font-size: {sizeMap[size]}; font-weight: {weightMap[weight]}; color: {color};">
