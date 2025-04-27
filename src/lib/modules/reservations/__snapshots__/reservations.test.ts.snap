@@ -1,0 +1,870 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Reservations module > Reservation data is sorted based on requirements 1`] = `
+[
+  {
+    "display_code": "VN",
+    "id": "guest_country-VN",
+    "reference_value": {
+      "nr_of_rooms": 8,
+      "revenue": 400,
+    },
+    "value": {
+      "nr_of_rooms": 99,
+      "revenue": 4950,
+    },
+  },
+  {
+    "display_code": "SA",
+    "id": "guest_country-SA",
+    "reference_value": {
+      "nr_of_rooms": 9,
+      "revenue": 450,
+    },
+    "value": {
+      "nr_of_rooms": 99,
+      "revenue": 4950,
+    },
+  },
+  {
+    "display_code": "LK",
+    "id": "guest_country-LK",
+    "reference_value": {
+      "nr_of_rooms": 50,
+      "revenue": 2500,
+    },
+    "value": {
+      "nr_of_rooms": 95,
+      "revenue": 4750,
+    },
+  },
+  {
+    "display_code": "BN",
+    "id": "guest_country-BN",
+    "reference_value": {
+      "nr_of_rooms": 18,
+      "revenue": 900,
+    },
+    "value": {
+      "nr_of_rooms": 94,
+      "revenue": 4700,
+    },
+  },
+  {
+    "display_code": "AU",
+    "id": "guest_country-AU",
+    "reference_value": {
+      "nr_of_rooms": 84,
+      "revenue": 4200,
+    },
+    "value": {
+      "nr_of_rooms": 92,
+      "revenue": 4600,
+    },
+  },
+  {
+    "display_code": "RO",
+    "id": "guest_country-RO",
+    "reference_value": {
+      "nr_of_rooms": 78,
+      "revenue": 3900,
+    },
+    "value": {
+      "nr_of_rooms": 91,
+      "revenue": 4550,
+    },
+  },
+  {
+    "display_code": "IE",
+    "id": "guest_country-IE",
+    "reference_value": {
+      "nr_of_rooms": 11,
+      "revenue": 550,
+    },
+    "value": {
+      "nr_of_rooms": 90,
+      "revenue": 4500,
+    },
+  },
+  {
+    "display_code": "MN",
+    "id": "guest_country-MN",
+    "reference_value": {
+      "nr_of_rooms": 79,
+      "revenue": 3950,
+    },
+    "value": {
+      "nr_of_rooms": 89,
+      "revenue": 4450,
+    },
+  },
+  {
+    "display_code": "FR",
+    "id": "guest_country-FR",
+    "reference_value": {
+      "nr_of_rooms": 90,
+      "revenue": 4500,
+    },
+    "value": {
+      "nr_of_rooms": 87,
+      "revenue": 4350,
+    },
+  },
+  {
+    "display_code": "GB",
+    "id": "guest_country-GB",
+    "reference_value": {
+      "nr_of_rooms": 8,
+      "revenue": 400,
+    },
+    "value": {
+      "nr_of_rooms": 86,
+      "revenue": 4300,
+    },
+  },
+  {
+    "display_code": "JP",
+    "id": "guest_country-JP",
+    "reference_value": {
+      "nr_of_rooms": 14,
+      "revenue": 700,
+    },
+    "value": {
+      "nr_of_rooms": 85,
+      "revenue": 4250,
+    },
+  },
+  {
+    "display_code": "ZA",
+    "id": "guest_country-ZA",
+    "reference_value": {
+      "nr_of_rooms": 82,
+      "revenue": 4100,
+    },
+    "value": {
+      "nr_of_rooms": 85,
+      "revenue": 4250,
+    },
+  },
+  {
+    "display_code": "JO",
+    "id": "guest_country-JO",
+    "reference_value": {
+      "nr_of_rooms": 5,
+      "revenue": 250,
+    },
+    "value": {
+      "nr_of_rooms": 83,
+      "revenue": 4150,
+    },
+  },
+  {
+    "display_code": "AR",
+    "id": "guest_country-AR",
+    "reference_value": {
+      "nr_of_rooms": 7,
+      "revenue": 350,
+    },
+    "value": {
+      "nr_of_rooms": 83,
+      "revenue": 4150,
+    },
+  },
+  {
+    "display_code": "CY",
+    "id": "guest_country-CY",
+    "reference_value": {
+      "nr_of_rooms": 9,
+      "revenue": 450,
+    },
+    "value": {
+      "nr_of_rooms": 83,
+      "revenue": 4150,
+    },
+  },
+  {
+    "display_code": "IT",
+    "id": "guest_country-IT",
+    "reference_value": {
+      "nr_of_rooms": 40,
+      "revenue": 2000,
+    },
+    "value": {
+      "nr_of_rooms": 82,
+      "revenue": 4100,
+    },
+  },
+  {
+    "display_code": "US",
+    "id": "guest_country-US",
+    "reference_value": {
+      "nr_of_rooms": 83,
+      "revenue": 4150,
+    },
+    "value": {
+      "nr_of_rooms": 80,
+      "revenue": 4000,
+    },
+  },
+  {
+    "display_code": "NO",
+    "id": "guest_country-NO",
+    "reference_value": {
+      "nr_of_rooms": 30,
+      "revenue": 1500,
+    },
+    "value": {
+      "nr_of_rooms": 79,
+      "revenue": 3950,
+    },
+  },
+  {
+    "display_code": "BR",
+    "id": "guest_country-BR",
+    "reference_value": {
+      "nr_of_rooms": 77,
+      "revenue": 3850,
+    },
+    "value": {
+      "nr_of_rooms": 79,
+      "revenue": 3950,
+    },
+  },
+  {
+    "display_code": "TBA",
+    "id": "guest_country-TBA",
+    "reference_value": {
+      "nr_of_rooms": 82,
+      "revenue": 4100,
+    },
+    "value": {
+      "nr_of_rooms": 79,
+      "revenue": 3950,
+    },
+  },
+  {
+    "display_code": "KR",
+    "id": "guest_country-KR",
+    "reference_value": {
+      "nr_of_rooms": 11,
+      "revenue": 550,
+    },
+    "value": {
+      "nr_of_rooms": 78,
+      "revenue": 3900,
+    },
+  },
+  {
+    "display_code": "FI",
+    "id": "guest_country-FI",
+    "reference_value": {
+      "nr_of_rooms": 54,
+      "revenue": 2700,
+    },
+    "value": {
+      "nr_of_rooms": 75,
+      "revenue": 3750,
+    },
+  },
+  {
+    "display_code": "TH",
+    "id": "guest_country-TH",
+    "reference_value": {
+      "nr_of_rooms": 91,
+      "revenue": 4550,
+    },
+    "value": {
+      "nr_of_rooms": 75,
+      "revenue": 3750,
+    },
+  },
+  {
+    "display_code": "SE",
+    "id": "guest_country-SE",
+    "reference_value": {
+      "nr_of_rooms": 62,
+      "revenue": 3100,
+    },
+    "value": {
+      "nr_of_rooms": 74,
+      "revenue": 3700,
+    },
+  },
+  {
+    "display_code": "QA",
+    "id": "guest_country-QA",
+    "reference_value": {
+      "nr_of_rooms": 6,
+      "revenue": 300,
+    },
+    "value": {
+      "nr_of_rooms": 73,
+      "revenue": 3650,
+    },
+  },
+  {
+    "display_code": "MY",
+    "id": "guest_country-MY",
+    "reference_value": {
+      "nr_of_rooms": 27,
+      "revenue": 1350,
+    },
+    "value": {
+      "nr_of_rooms": 73,
+      "revenue": 3650,
+    },
+  },
+  {
+    "display_code": "BE",
+    "id": "guest_country-BE",
+    "reference_value": {
+      "nr_of_rooms": 31,
+      "revenue": 1550,
+    },
+    "value": {
+      "nr_of_rooms": 72,
+      "revenue": 3600,
+    },
+  },
+  {
+    "display_code": "CA",
+    "id": "guest_country-CA",
+    "reference_value": {
+      "nr_of_rooms": 87,
+      "revenue": 4350,
+    },
+    "value": {
+      "nr_of_rooms": 70,
+      "revenue": 3500,
+    },
+  },
+  {
+    "display_code": "MZ",
+    "id": "guest_country-MZ",
+    "reference_value": {
+      "nr_of_rooms": 26,
+      "revenue": 1300,
+    },
+    "value": {
+      "nr_of_rooms": 68,
+      "revenue": 3400,
+    },
+  },
+  {
+    "display_code": "AT",
+    "id": "guest_country-AT",
+    "reference_value": {
+      "nr_of_rooms": 71,
+      "revenue": 3550,
+    },
+    "value": {
+      "nr_of_rooms": 68,
+      "revenue": 3400,
+    },
+  },
+  {
+    "display_code": "VU",
+    "id": "guest_country-VU",
+    "reference_value": {
+      "nr_of_rooms": 70,
+      "revenue": 3500,
+    },
+    "value": {
+      "nr_of_rooms": 67,
+      "revenue": 3350,
+    },
+  },
+  {
+    "display_code": "MO",
+    "id": "guest_country-MO",
+    "reference_value": {
+      "nr_of_rooms": 17,
+      "revenue": 850,
+    },
+    "value": {
+      "nr_of_rooms": 61,
+      "revenue": 3050,
+    },
+  },
+  {
+    "display_code": "ES",
+    "id": "guest_country-ES",
+    "reference_value": {
+      "nr_of_rooms": 27,
+      "revenue": 1350,
+    },
+    "value": {
+      "nr_of_rooms": 60,
+      "revenue": 3000,
+    },
+  },
+  {
+    "display_code": "PT",
+    "id": "guest_country-PT",
+    "reference_value": {
+      "nr_of_rooms": 50,
+      "revenue": 2500,
+    },
+    "value": {
+      "nr_of_rooms": 60,
+      "revenue": 3000,
+    },
+  },
+  {
+    "display_code": "KZ",
+    "id": "guest_country-KZ",
+    "reference_value": {
+      "nr_of_rooms": 18,
+      "revenue": 900,
+    },
+    "value": {
+      "nr_of_rooms": 59,
+      "revenue": 2950,
+    },
+  },
+  {
+    "display_code": "TW",
+    "id": "guest_country-TW",
+    "reference_value": {
+      "nr_of_rooms": 71,
+      "revenue": 3550,
+    },
+    "value": {
+      "nr_of_rooms": 57,
+      "revenue": 2850,
+    },
+  },
+  {
+    "display_code": "SD",
+    "id": "guest_country-SD",
+    "reference_value": {
+      "nr_of_rooms": 76,
+      "revenue": 3800,
+    },
+    "value": {
+      "nr_of_rooms": 57,
+      "revenue": 2850,
+    },
+  },
+  {
+    "display_code": "DE",
+    "id": "guest_country-DE",
+    "reference_value": {
+      "nr_of_rooms": 52,
+      "revenue": 2600,
+    },
+    "value": {
+      "nr_of_rooms": 55,
+      "revenue": 2750,
+    },
+  },
+  {
+    "display_code": "TR",
+    "id": "guest_country-TR",
+    "reference_value": {
+      "nr_of_rooms": 50,
+      "revenue": 2500,
+    },
+    "value": {
+      "nr_of_rooms": 52,
+      "revenue": 2600,
+    },
+  },
+  {
+    "display_code": "DZ",
+    "id": "guest_country-DZ",
+    "reference_value": {
+      "nr_of_rooms": 4,
+      "revenue": 200,
+    },
+    "value": {
+      "nr_of_rooms": 51,
+      "revenue": 2550,
+    },
+  },
+  {
+    "display_code": "SG",
+    "id": "guest_country-SG",
+    "reference_value": {
+      "nr_of_rooms": 33,
+      "revenue": 1650,
+    },
+    "value": {
+      "nr_of_rooms": 49,
+      "revenue": 2450,
+    },
+  },
+  {
+    "display_code": "CH",
+    "id": "guest_country-CH",
+    "reference_value": {
+      "nr_of_rooms": 1,
+      "revenue": 50,
+    },
+    "value": {
+      "nr_of_rooms": 48,
+      "revenue": 2400,
+    },
+  },
+  {
+    "display_code": "GE",
+    "id": "guest_country-GE",
+    "reference_value": {
+      "nr_of_rooms": 3,
+      "revenue": 150,
+    },
+    "value": {
+      "nr_of_rooms": 47,
+      "revenue": 2350,
+    },
+  },
+  {
+    "display_code": "HK",
+    "id": "guest_country-HK",
+    "reference_value": {
+      "nr_of_rooms": 73,
+      "revenue": 3650,
+    },
+    "value": {
+      "nr_of_rooms": 47,
+      "revenue": 2350,
+    },
+  },
+  {
+    "display_code": "PL",
+    "id": "guest_country-PL",
+    "reference_value": {
+      "nr_of_rooms": 42,
+      "revenue": 2100,
+    },
+    "value": {
+      "nr_of_rooms": 46,
+      "revenue": 2300,
+    },
+  },
+  {
+    "display_code": "HU",
+    "id": "guest_country-HU",
+    "reference_value": {
+      "nr_of_rooms": 13,
+      "revenue": 650,
+    },
+    "value": {
+      "nr_of_rooms": 44,
+      "revenue": 2200,
+    },
+  },
+  {
+    "display_code": "IN",
+    "id": "guest_country-IN",
+    "reference_value": {
+      "nr_of_rooms": 87,
+      "revenue": 4350,
+    },
+    "value": {
+      "nr_of_rooms": 44,
+      "revenue": 2200,
+    },
+  },
+  {
+    "display_code": "NZ",
+    "id": "guest_country-NZ",
+    "reference_value": {
+      "nr_of_rooms": 52,
+      "revenue": 2600,
+    },
+    "value": {
+      "nr_of_rooms": 43,
+      "revenue": 2150,
+    },
+  },
+  {
+    "display_code": "IR",
+    "id": "guest_country-IR",
+    "reference_value": {
+      "nr_of_rooms": 55,
+      "revenue": 2750,
+    },
+    "value": {
+      "nr_of_rooms": 42,
+      "revenue": 2100,
+    },
+  },
+  {
+    "display_code": "HR",
+    "id": "guest_country-HR",
+    "reference_value": {
+      "nr_of_rooms": 23,
+      "revenue": 1150,
+    },
+    "value": {
+      "nr_of_rooms": 41,
+      "revenue": 2050,
+    },
+  },
+  {
+    "display_code": "DK",
+    "id": "guest_country-DK",
+    "reference_value": {
+      "nr_of_rooms": 3,
+      "revenue": 150,
+    },
+    "value": {
+      "nr_of_rooms": 40,
+      "revenue": 2000,
+    },
+  },
+  {
+    "display_code": "NL",
+    "id": "guest_country-NL",
+    "reference_value": {
+      "nr_of_rooms": 60,
+      "revenue": 3000,
+    },
+    "value": {
+      "nr_of_rooms": 40,
+      "revenue": 2000,
+    },
+  },
+  {
+    "display_code": "CZ",
+    "id": "guest_country-CZ",
+    "reference_value": {
+      "nr_of_rooms": 87,
+      "revenue": 4350,
+    },
+    "value": {
+      "nr_of_rooms": 39,
+      "revenue": 1950,
+    },
+  },
+  {
+    "display_code": "RS",
+    "id": "guest_country-RS",
+    "reference_value": {
+      "nr_of_rooms": 55,
+      "revenue": 2750,
+    },
+    "value": {
+      "nr_of_rooms": 33,
+      "revenue": 1650,
+    },
+  },
+  {
+    "display_code": "LU",
+    "id": "guest_country-LU",
+    "reference_value": {
+      "nr_of_rooms": 66,
+      "revenue": 3300,
+    },
+    "value": {
+      "nr_of_rooms": 33,
+      "revenue": 1650,
+    },
+  },
+  {
+    "display_code": "KE",
+    "id": "guest_country-KE",
+    "reference_value": {
+      "nr_of_rooms": 7,
+      "revenue": 350,
+    },
+    "value": {
+      "nr_of_rooms": 31,
+      "revenue": 1550,
+    },
+  },
+  {
+    "display_code": "GR",
+    "id": "guest_country-GR",
+    "reference_value": {
+      "nr_of_rooms": 33,
+      "revenue": 1650,
+    },
+    "value": {
+      "nr_of_rooms": 30,
+      "revenue": 1500,
+    },
+  },
+  {
+    "display_code": "BD",
+    "id": "guest_country-BD",
+    "reference_value": {
+      "nr_of_rooms": 52,
+      "revenue": 2600,
+    },
+    "value": {
+      "nr_of_rooms": 30,
+      "revenue": 1500,
+    },
+  },
+  {
+    "display_code": "BG",
+    "id": "guest_country-BG",
+    "reference_value": {
+      "nr_of_rooms": 28,
+      "revenue": 1400,
+    },
+    "value": {
+      "nr_of_rooms": 28,
+      "revenue": 1400,
+    },
+  },
+  {
+    "display_code": "KH",
+    "id": "guest_country-KH",
+    "reference_value": {
+      "nr_of_rooms": 36,
+      "revenue": 1800,
+    },
+    "value": {
+      "nr_of_rooms": 27,
+      "revenue": 1350,
+    },
+  },
+  {
+    "display_code": "MV",
+    "id": "guest_country-MV",
+    "reference_value": {
+      "nr_of_rooms": 49,
+      "revenue": 2450,
+    },
+    "value": {
+      "nr_of_rooms": 24,
+      "revenue": 1200,
+    },
+  },
+  {
+    "display_code": "IL",
+    "id": "guest_country-IL",
+    "reference_value": {
+      "nr_of_rooms": 4,
+      "revenue": 200,
+    },
+    "value": {
+      "nr_of_rooms": 21,
+      "revenue": 1050,
+    },
+  },
+  {
+    "display_code": "AE",
+    "id": "guest_country-AE",
+    "reference_value": {
+      "nr_of_rooms": 23,
+      "revenue": 1150,
+    },
+    "value": {
+      "nr_of_rooms": 18,
+      "revenue": 900,
+    },
+  },
+  {
+    "display_code": "MM",
+    "id": "guest_country-MM",
+    "reference_value": {
+      "nr_of_rooms": 56,
+      "revenue": 2800,
+    },
+    "value": {
+      "nr_of_rooms": 16,
+      "revenue": 800,
+    },
+  },
+  {
+    "display_code": "AF",
+    "id": "guest_country-AF",
+    "reference_value": {
+      "nr_of_rooms": 52,
+      "revenue": 2600,
+    },
+    "value": {
+      "nr_of_rooms": 12,
+      "revenue": 600,
+    },
+  },
+  {
+    "display_code": "CN",
+    "id": "guest_country-CN",
+    "reference_value": {
+      "nr_of_rooms": 99,
+      "revenue": 4950,
+    },
+    "value": {
+      "nr_of_rooms": 12,
+      "revenue": 600,
+    },
+  },
+  {
+    "display_code": "PK",
+    "id": "guest_country-PK",
+    "reference_value": {
+      "nr_of_rooms": 19,
+      "revenue": 950,
+    },
+    "value": {
+      "nr_of_rooms": 10,
+      "revenue": 500,
+    },
+  },
+  {
+    "display_code": "KW",
+    "id": "guest_country-KW",
+    "reference_value": {
+      "nr_of_rooms": 45,
+      "revenue": 2250,
+    },
+    "value": {
+      "nr_of_rooms": 10,
+      "revenue": 500,
+    },
+  },
+  {
+    "display_code": "MX",
+    "id": "guest_country-MX",
+    "reference_value": {
+      "nr_of_rooms": 28,
+      "revenue": 1400,
+    },
+    "value": {
+      "nr_of_rooms": 9,
+      "revenue": 450,
+    },
+  },
+  {
+    "display_code": "CL",
+    "id": "guest_country-CL",
+    "reference_value": {
+      "nr_of_rooms": 17,
+      "revenue": 850,
+    },
+    "value": {
+      "nr_of_rooms": 4,
+      "revenue": 200,
+    },
+  },
+  {
+    "display_code": "PH",
+    "id": "guest_country-PH",
+    "reference_value": {
+      "nr_of_rooms": 34,
+      "revenue": 1700,
+    },
+    "value": {
+      "nr_of_rooms": 4,
+      "revenue": 200,
+    },
+  },
+  {
+    "display_code": "RU",
+    "id": "guest_country-RU",
+    "reference_value": {
+      "nr_of_rooms": 28,
+      "revenue": 1400,
+    },
+    "value": {
+      "nr_of_rooms": 3,
+      "revenue": 150,
+    },
+  },
+]
+`;
