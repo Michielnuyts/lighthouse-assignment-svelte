@@ -5,8 +5,9 @@ export const theme = {
 			negative: '#EB2C35'
 		},
 		primary: {
-			blue: '#035086',
-			blueDark: '#2A3A48',
+			brightBlue: '#035086',
+			darkerBlue: '#2A3A48',
+			mediumBlue: '#4E6477',
 			grey: '#e1e5ec'
 		},
 		borders: {
