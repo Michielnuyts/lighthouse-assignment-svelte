@@ -13,7 +13,7 @@
 </script>
 
 <div class="card-title">
-	<Typography size="sm" weight="extrabold" color={theme.colors.primary.blueDark}>
+	<Typography size="sm" weight="extrabold" color={theme.colors.primary.darkerBlue}>
 		{props.title}
 	</Typography>
 </div>

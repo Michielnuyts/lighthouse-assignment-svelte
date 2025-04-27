@@ -4,7 +4,7 @@
 	import CardHeader from './CardHeader.svelte';
 	import CountryRow from './CountryRow.svelte';
 
-	let reservations = reservationsStore.getReservations();
+	const reservations = reservationsStore.getReservations();
 </script>
 
 <div class="card-container" style="border-color: {theme.colors.borders.primary};">
