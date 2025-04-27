@@ -2,6 +2,7 @@ import { COUNTRY_CODE_MAPPING, type CountryCode } from '$lib/countryCodes';
 import invariant from '$lib/invariant';
 import { reservationData } from './fixture';
 import type { Reservation } from './types';
+import { compareReservations } from './utils';
 
 const reservationState = $state<Reservation[]>([]);
 
@@ -10,13 +11,11 @@ const initialze = () => {
 	 * Getting CORS errors on the fetch request, so to make sure you can run the app,
 	 * I'll use a local copy of the data.
 	 */
-	const sortedByMostReservationsDesc = reservationData.sort((a, b) => {
-		return b.value.nr_of_rooms - a.value.nr_of_rooms;
-	});
+	const sortedByMostReservationsDesc = reservationData.toSorted(compareReservations);
 	const mostReservations = sortedByMostReservationsDesc[0];
 
 	reservationState.push(
-		...reservationData.map((reservation) => {
+		...sortedByMostReservationsDesc.map((reservation) => {
 			const countryCode = reservation.display_code as CountryCode;
 			const countryName = COUNTRY_CODE_MAPPING[countryCode];
 
